@@ -1,0 +1,341 @@
+.bdy{
+  background-color: black;
+  color: white;
+ 
+  height: 100vh;
+}
+
+
+/*--------------Navv.css----------------*/
+
+.logo{
+   width: 40%;
+   height: 9%;
+}
+
+.navv {
+  background-color: rgb(29, 28, 28);
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+
+.navv .nav-link {
+  margin-left: 10px;
+  color: white;
+}
+
+
+.signup-btn{
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgb(29, 28, 28);
+}
+
+
+/*---------------Login.css---------------------*/
+.blk-col {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: white;
+  justify-content: space-between;
+}
+
+.trade {
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+.blackk h6 {
+  margin-left: 19%;
+  margin-right: 19%;
+}
+
+.login-bdy, .signup-bdy {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  
+  align-items: stretch; 
+}
+
+.login-container, .signup-container {
+  padding: 10%;
+  justify-content: center;
+}
+
+.select input:focus {
+  box-shadow: rgb(29, 28, 28);
+}
+
+.p-2 {
+  color: grey;
+  cursor: pointer;
+}
+
+.p-2:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.p-2:not(.active-method)::after {
+  content: " ";
+  display: inline-block;
+  margin-right: 0.2em; 
+}
+
+.active-method {
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 2px; 
+}
+
+.nxt-btn {
+  background-color: lightgrey;
+  color: rgb(103, 96, 96);
+  width: 100%; 
+  border-radius: 5px;
+}
+
+.round-btn {
+  border-radius: 50%;
+}
+
+.mobile-img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.tel h6 {
+  color: white;
+}
+
+.tel {
+  background-color: rgb(76, 74, 74);
+  padding: 3%;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.tel p {
+  color: rgb(200, 195, 195);
+}
+
+.qr-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-input .form-control {
+  flex-grow: 1;
+}
+
+.phone-input .dropdown-toggle {
+  width: 80px;
+  text-align: left;
+}
+
+.dont-have-account {
+  text-align: center;
+}
+
+.signup-link {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.or-continue-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-transform: lowercase;
+  color: grey;
+  font-size: 14px;
+}
+
+.or-continue-with .line {
+  border-top: 1px solid grey;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.country-code-dropdown .dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+}
+
+.country-code-dropdown .dropdown-toggle:after {
+  margin-left: 0.5em;
+}
+
+
+.recap{
+  color: grey;
+  font-size: 10px;
+}
+
+ p span b{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*---------------------Signup.css-------------------------*/
+.white-col{
+  padding: 2%;
+  justify-content: center;
+  background-color: white;
+  flex: 1; 
+  max-height: 91vh;
+}
+
+.signup-bdy{
+  padding: 0;
+  margin: 0;
+}
+
+.signup-container{
+  padding: 9%;
+ 
+}
+
+
+label{
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.country-code-dropdown .dropdown-toggle {
+  width: 80%; 
+  text-align: left;
+}
+
+.country-code-dropdown .dropdown-menu {
+  width: 100%; 
+  min-width: 250px; 
+}
+
+.country-code-dropdown .dropdown-item {
+  width: 80%; 
+}
+
+
+.country-code-dropdown .dropdown-toggle {
+  width: 100%; 
+  text-align: left; 
+  padding-right: 30px; 
+  position: relative; 
+}
+
+.country-code-dropdown .dropdown-toggle::after {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.country-code-dropdown .dropdown-menu {
+  width: 100%; 
+  min-width: 250px; 
+}
+
+/*---------------------bhav-----------*/
+
+/*-----------------------------------------------------------
+intha css add pana navv maruthu but i have different class
+ name for navv analum navv change aguthu so intha css aha nan comment 
+ panirukaen neenga yeeduthutu try pani parunga unagluku epdi varthu nu
+ css ilama irukura output image "WithoutCss.png"(in assets)
+ intha css vacha output image "WithCss.png"(in assets) 
+
+
+
+ withcss la nav bar konjam perusa agidukum ...pa
+
+
+ aprm inon ena na antha blackCol irukula athu screen
+  starting la irunthu varnum anna enku konjam space varthu
+ -----------------------------------------------------------*/
+
+ 
+ .b_h1 {
+  padding-top: 90px;
+  color: white;
+  font-size: xxx-large;
+  padding-left: 70px;
+  max-width: 500px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.b_input {
+  margin-left: 70px;
+  margin-right: 1%;
+  width: 250px;
+  height: 60px;
+  background-color: black;
+  border-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1.5px solid white;
+  color: white;
+}
+
+input[placeholder] {
+  font-size: larger;
+}
+
+.b_try {
+  font-size: 21px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.image-wrapper {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+@media (max-width: 767.98px) {
+  .b_h1 {
+    font-size: large;
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+  .b_input {
+    margin-left: 15px;
+    width: 30%; /* Adjust the width as needed */
+    margin-right: 1%;
+    height: 30px;
+  }
+  .b_try{
+    font-size: 12px;
+
+  }
+  input[placeholder] {
+    font-size: small;
+  }
+
+  .image-wrapper {
+    margin-left: 15px;
+    gap: 5px;
+  }
+}

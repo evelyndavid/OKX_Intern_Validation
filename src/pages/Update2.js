@@ -20,7 +20,7 @@ export default function Update() {
                 navigate('/');
             })
             .catch((error) => {
-                console.error("Error updating data: ", error);
+                console.error("Error  data: ", error);
             });
     }
 
